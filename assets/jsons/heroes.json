@@ -1,0 +1,179 @@
+{
+    "heroes": [{
+        "name": "Herbert - Innkeeper",
+        "asset": "sprPortraitInnkeeper",
+        "description": "Serves the guests well, but is not the best fighter in Town. At least not with his hands.",
+        "stats": {
+            "atk": 0.5,
+            "def": 0.5,
+            "hp": 1,
+            "maxHp": 1
+        },
+        "cost": {
+            "hire": {
+                "gold": 5,
+                "loot": 0,
+                "food": 0
+            },
+            "upgrade": {
+                "gold": 5,
+                "loot": 2,
+                "food": 5
+            }
+        }
+    },{
+        "name": "Sam Laughlington- Adventurer",
+        "asset": "sprPortraitAdventurer",
+        "description": "A basic adventurer for hire. A little bit clumsy, but if you give him some loot, he may develop into an okay warrior.",
+        "stats": {
+            "atk": 1,
+            "def": 0.9,
+            "hp": 9,
+            "maxHp": 9
+        },
+        "cost": {
+            "hire": {
+                "gold": 10,
+                "loot": 0,
+                "food": 0
+            },
+            "upgrade": {
+                "gold": 6,
+                "loot": 7,
+                "food": 5
+            }
+        }
+    },{
+        "name": "Sir Dancealot - Warrior",
+        "asset": "sprPortraitWarrior",
+        "description": "A fearsome warrior. Truly honourable and seeking an adventure each day. And he is a good dancer.",
+        "stats": {
+            "atk": 1.5,
+            "def": 0.9,
+            "hp": 11,
+            "maxHp": 11
+        },
+        "cost": {
+            "hire": {
+                "gold": 100,
+                "loot": 0,
+                "food": 0
+            },
+            "upgrade": {
+                "gold": 10,
+                "loot": 10,
+                "food": 5
+            }
+        }
+    },{
+        "name": "Jeanine of Underbridge - Paladin",
+        "asset": "sprPortraitPaladin",
+        "description": "Her inner light shields her from evil. She is not here to help you or the tavern, but because its the right thing to do so.",
+        "stats": {
+            "atk": 1.1,
+            "def": 1.5,
+            "hp": 13,
+            "maxHp": 13
+        },
+        "cost": {
+            "hire": {
+                "gold": 1200,
+                "loot": 200,
+                "food": 0
+            },
+            "upgrade": {
+                "gold": 0,
+                "loot": 12,
+                "food": 0
+            }
+        }
+    },{
+        "name": "Cliffard Stroll - Wizard",
+        "asset": "sprPortraitWizard",
+        "description": "Wise and old, but not to underestimate. He knows the best jokes.",
+        "stats": {
+            "atk": 1.25,
+            "def": 1.25,
+            "hp": 10,
+            "maxHp": 10
+        },
+        "cost": {
+            "hire": {
+                "gold": 1200,
+                "loot": 0,
+                "food": 200
+            },
+            "upgrade": {
+                "gold": 8,
+                "loot": 5,
+                "food": 20
+            }
+        }
+    },{
+        "name": "Meg Fischer - Thief",
+        "asset": "sprPortraitThief",
+        "description": "Somehow she always finds some extra gold in vase or crack in the wall.",
+        "stats": {
+            "atk": 1.2,
+            "def": 1,
+            "hp": 9,
+            "maxHp": 9
+        },
+        "cost": {
+            "hire": {
+                "gold": 2500,
+                "loot": 1000,
+                "food": 500
+            },
+            "upgrade": {
+                "gold": 200,
+                "loot": 10,
+                "food": 20
+            }
+        }
+    },{
+        "name": "Trevor Hinsley - Tinkerer",
+        "asset": "sprPortraitTinkerer",
+        "description": "He amputeed his right arm for a robotic augment, now he has always a steady hands when crafting something. Gathers extra loot on quests.",
+        "stats": {
+            "atk": 1,
+            "def": 1.2,
+            "hp": 10,
+            "maxHp": 10
+        },
+        "cost": {
+            "hire": {
+                "gold": 2500,
+                "loot": 500,
+                "food": 1000
+            },
+            "upgrade": {
+                "gold": 200,
+                "loot": 10,
+                "food": 20
+            }
+        }
+    },{
+        "name": "Franz Fritz - Chef",
+        "asset": "sprPortraitChef",
+        "description": "Even the nastiest monster can be turned into something palatable. In France they call me Francois Friteuse.",
+        "stats": {
+            "atk": 1.1,
+            "def": 1,
+            "hp": 11,
+            "maxHp": 11
+        },
+        "cost": {
+            "hire": {
+                "gold": 2000,
+                "loot": 1000,
+                "food": 2000
+            },
+            "upgrade": {
+                "gold": 200,
+                "loot": 10,
+                "food": 20
+            }
+        }
+    }]
+}

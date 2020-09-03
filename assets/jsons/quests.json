@@ -1,0 +1,138 @@
+{
+    "quests": [{
+        "name": "Tavern",
+        "asset": "sprQuestTavern",
+        "description": "Sell food for gold.",
+        "stats": {
+            "atk": 0,
+            "def": 0,
+            "time": 3
+        },
+        "cost": {
+            "quest": {
+                "gold": 0,
+                "loot": 0,
+                "food": 1
+            },
+            "unlock": {
+                "gold": 0,
+                "loot": 0,
+                "food": 0
+            }
+        },
+        "reward": {
+            "gold": 2,
+            "loot": 0,
+            "food": 0
+        },
+        "levelRequirement": 0
+    },{
+        "name": "Flea Market",
+        "asset": "sprQuestTavern",
+        "description": "Sell loot for gold.",
+        "stats": {
+            "atk": 0,
+            "def": 0,
+            "time": 5
+        },
+        "cost": {
+            "quest": {
+                "gold": 0,
+                "loot": 10,
+                "food": 0
+            },
+            "unlock": {
+                "gold": 0,
+                "loot": 0,
+                "food": 0
+            }
+        },
+        "reward": {
+            "gold": 2,
+            "loot": 0,
+            "food": 0
+        },
+        "levelRequirement": 5
+    },{
+        "name": "Rat infested cellar",
+        "asset": "sprQuestRatCellar",
+        "description": "Hunt for rats in your taverns cellar, to get their meat and some loot.",
+        "stats": {
+            "atk": 1,
+            "def": 0.9,
+            "time": 6
+        },
+        "cost": {
+            "quest": {
+                "gold": 0,
+                "loot": 0,
+                "food": 0
+            },
+            "unlock": {
+                "gold": 0,
+                "loot": 0,
+                "food": 0
+            }
+        },
+        "reward": {
+            "gold": 0,
+            "loot": 1,
+            "food": 1
+        },
+        "levelRequirement": 1
+    },{
+        "name": "Cemetary",
+        "asset": "sprQuestRatCellar",
+        "description": "Raid a crypt and search for forgotten riches.",
+        "stats": {
+            "atk": 5,
+            "def": 4,
+            "time": 10
+        },
+        "cost": {
+            "quest": {
+                "gold": 0,
+                "loot": 0,
+                "food": 0
+            },
+            "unlock": {
+                "gold": 0,
+                "loot": 0,
+                "food": 0
+            }
+        },
+        "reward": {
+            "gold": 1,
+            "loot": 2,
+            "food": 1
+        },
+        "levelRequirement": 5
+    },{
+        "name": "Bridge to Brightwood",
+        "asset": "sprQuestRatCellar",
+        "description": "Gerhard the Troll is guarding this bridge and he fights you even if you would have enough money to cross.",
+        "stats": {
+            "atk": 20,
+            "def": 10,
+            "time": 30
+        },
+        "cost": {
+            "quest": {
+                "gold": 0,
+                "loot": 0,
+                "food": 0
+            },
+            "unlock": {
+                "gold": 100,
+                "loot": 0,
+                "food": 0
+            }
+        },
+        "reward": {
+            "gold": 10,
+            "loot": 2,
+            "food": 0
+        },
+        "levelRequirement": 10
+    }]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="./lib/phaser.min.js"></script>
+    <script src="./lib/numeral.min.js"></script>
+</head>
+
+<body style="background-color: #1d2b53; margin: 0px">
+    <script>
+        const TEXTSTYLENAME = {
+            fontFamily: "Bookman",
+            fontSize: "16px",
+            align: "center"
+        }
+        const TEXTSTYLEDESCRIPTION = {
+            fontFamily: "Bookman",
+            fontSize: "16px",
+            align: "left",
+            wordWrap: {
+                width: 300,
+                useAdvancedWrap: false
+            }
+        }
+    </script>
+    <script type="module">
+
+        import Preloader from './src/preloader.js';
+        import ScnMain from './src/scnMain.js';
+
+        let h = 920;
+        let w = 920 * (window.innerWidth / 920);
+        if(window.innerWidth < window.innerHeight){
+            w = 920;
+            h = 920 * (window.innerHeight / 920);
+        }
+
+        var config = {
+            type: Phaser.AUTO,
+            width: w,
+            height: h,
+            render: {
+                antialias: false,
+                roundPixels: true,
+                pixelArt: true
+            },
+            scale: {
+                autoCenter: true,
+                mode: Phaser.Scale.FIT
+            },
+            scene: [
+                Preloader(),
+                ScnMain
+            ]
+        };
+
+        var game = new Phaser.Game(config);
+    </script>
+</body>
+</html>
