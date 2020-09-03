@@ -13,3 +13,8 @@ tech
 ----
 I used phaser.js to draw stuff on screen, that way i dont have to fool around with CSS and could concentrate on the rest. In photoshop i drew some small sprites for the heroes, buttons and quests. I didnt use any special font that needs embedding, although i woudl add that as well with mobile sensitive scaling if I had more time.
 numeral.js was used to convert big numbers to strings, like 1 000 000 will result in "1m"
+
+links
+-----
+github: https://github.com/AncientPixelAP/QuestAdVenture
+itch: https://ancientpixel.itch.io/quest-adventure pw: "gameClosure" to view the game
